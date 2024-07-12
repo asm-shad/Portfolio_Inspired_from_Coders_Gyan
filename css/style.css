@@ -531,6 +531,7 @@ footer .copyright {
     border: none;
     outline: none;
     cursor: pointer;
+    display: none;
 }
 
 .hamburger img {
@@ -586,6 +587,9 @@ footer .copyright {
 @media (max-width:1024px) {
     header #main-nav{
         display: none;
+    }
+    .hamburger {
+        display: block;
     }
     .hero .left img {
         width: 260px;
@@ -674,6 +678,3 @@ footer .copyright {
         grid-template-columns: repeat(1, 1fr);
     }
 }
-
-
-
